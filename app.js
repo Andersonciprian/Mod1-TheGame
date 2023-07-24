@@ -12,8 +12,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'orange',
         'red',
         'purple',
-        'green',
-        'blue'
+        'yellow',
+        'cyan'
     ]
 
     // The Tetrominoes
@@ -228,7 +228,7 @@ document.addEventListener('DOMContentLoaded', () => {
     })
 
 newGameBtn.addEventListener('click', () => {
-
+location.reload();
 }
 )
 
@@ -281,3 +281,6 @@ function gameOver() {
   
 
 })
+
+
+
